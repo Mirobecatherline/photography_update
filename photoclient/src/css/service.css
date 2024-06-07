@@ -1,0 +1,68 @@
+.service_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+  
+    
+
+}
+
+article{
+    background: #E0E0E0;
+    
+
+}
+#services h2{
+   
+    width: 20%;
+    margin: 2rem auto;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 200;
+    border-bottom: 1px solid var(--color-button);
+    align-items: center;
+}
+.explanation{
+    /* position: absolute; */
+    text-align: center;
+    width: 80%;
+    width: 80%;
+    margin: -2rem auto 2rem auto;
+    background: white;
+    padding: 1rem;
+    border-radius: 20px;
+    
+   
+    /* margin-top: -30px; */
+}
+.service_btn{
+   padding: 10px;
+    font-size: 1rem;
+}
+.service_image{
+    background-image: url("../assets/me1.jpg");
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:1024px) {
+    .service_container{
+        display: grid;
+        grid-template-columns: 1fr ;
+       
+    
+    }
+}  
+    
+/* media queries for smailldevices make it responsive */
+@media screen and (max-width:600px) {
+   
+    .service_container{
+        display: grid;
+        grid-template-columns: 1fr ;
+    
+        
+    
+    }
+}

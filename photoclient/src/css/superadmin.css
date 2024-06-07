@@ -1,0 +1,15 @@
+.add{
+    width: 80%;
+    margin: 40px auto;
+    
+}
+.add form{
+    padding: 20px;
+}
+.add p{
+    background-color:red ;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+}

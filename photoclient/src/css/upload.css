@@ -1,0 +1,22 @@
+.upload{
+    width: 85%;
+    margin: 20px auto;
+    @media (min-width: 600px) {
+            width: 90%;
+            margin: auto 0px;
+        }
+    
+}
+.upload form{
+    padding: 0px;
+    @media (min-width: 600px) {
+           padding: 0px;
+        }
+}
+.upload p{
+    background-color:red ;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+}

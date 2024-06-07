@@ -1,0 +1,15 @@
+.signup_container{
+    width: 80%;
+    margin: 40px auto;
+    
+}
+.signup_container form{
+    padding: 50px;
+}
+.signup_container p{
+    background-color:red ;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+}

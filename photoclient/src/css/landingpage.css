@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* :root can be useful for declaring global CSS variables.if you want to change you can change here and change the whole project */
+:root {
+    --color-bg:#FFFAFA;
+    --color-button:	#0000CD;   
+    --color-text:black;
+    --container-width:85%;
+    --container-height:95vh;
+    --transition: all 400ms ease;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.container_section{
+  width: var(--container-width);
+  margin: 0 auto; /*place in the middle horizontally */
+  height: fit-content;
+  padding: 3rem 0;
+}
+.section_title{
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+
+}
+/* to remove scrollbar */
+/* ::-webkit-scrollbar{
+    display: none;
+} */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-bg);
+    color:var(--color-text);
+    line-height: 1.7;/*spacing etween lines*/
+    
+}
+button{
+    background: var(--color-button);
+    color: var(--color-bg);
+    border: 1px solid transparent;
+}
+button:hover{
+    background: var(--color-bg);
+    color: black;
+    border: 1px solid var(--color-button);
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width:1024px) {
+    .container_section{
+        width: var(--container-width);
+
+    }
+   
+}
+/* media queries for smailldevices make it responsive */
+@media screen and (max-width:600px) {
+    .container_section{
+        width: var(--container-width);
+
+    }
+    
+}

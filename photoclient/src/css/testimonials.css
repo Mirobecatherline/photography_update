@@ -1,0 +1,96 @@
+.container.testimonial_container{
+    width: 50%;
+    padding: 0 3rem 3rem 0;
+    /* height: 50vh;
+    */
+   
+}
+.testimonial_top{
+
+}
+.testimonial_section{
+    height: fit-content;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(cake6.jpeg);
+    background-size: contain;
+  background-attachment: fixed;
+  box-shadow: 0px 10px 16px 0px rgba(0,0,0,0.9);
+  /* height: 60vh; */
+   /* added above */
+}
+
+.clientimage1{
+    width: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    /* height: 10%; */
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+}
+.testimonial{
+    
+    text-align: center;
+    border-radius: 2rem;
+    user-select: none;/*one cannte select text*/
+    padding: 2rem;
+   background: white;
+   
+    margin: 1rem;
+    width: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.client_review{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+} 
+.heading{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 200;
+    border-bottom: 1px solid var(--color-button);
+    margin: 2rem auto;
+    width: 25%;
+    /* 
+    display: flex;
+    align-self: center; */
+    
+}
+
+.swiper-pagination-bullet{
+ 
+ background: white;
+ opacity: var(--swiper-pagination-bullet-inactive-opacity, .5);
+}
+
+
+@media screen and (max-width:1024px) {
+    .container.testimonial_container{
+        width: 60%;
+    }
+}  
+    
+/* media queries for smailldevices make it responsive */
+@media screen and (max-width:600px) {
+    .container.testimonial_container{
+        width: 95%;
+    }
+    /* .testimonial_container{
+        width: 90%;
+        padding: 0;
+       
+    } */
+    /* .container_section{
+        width: fit-content;
+    }
+    .testimonial_top{
+       padding-left: 2rem;
+    } */
+}
+/* background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(cake6.jpeg);
+background-size: contain;
+background-attachment: fixed; */

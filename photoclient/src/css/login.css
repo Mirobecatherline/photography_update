@@ -1,0 +1,15 @@
+.form_container{
+    width: 80%;
+    margin: 80px auto;
+    
+}
+.form_container form{
+    padding: 50px;
+}
+.form_container p{
+    background-color:red ;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+}
