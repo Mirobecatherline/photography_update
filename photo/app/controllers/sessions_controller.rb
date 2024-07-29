@@ -14,7 +14,7 @@ class SessionsController < ApplicationController
     # def destroy
     #     session.delete :user_id
     #     head :no_content
-    # end
+    # end photo/lib/photo-auth-33f7b-firebase-adminsdk-uxp6v-4fe40af858.json
     private
     def render_not_found_response
         render json: {errors: ["user not found"]}
